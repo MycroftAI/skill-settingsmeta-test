@@ -1,0 +1,34 @@
+name: Settingsmeta-test
+skillMetadata:
+  sections:
+    - name: Login
+      fields:
+      - name: email
+        type: email
+        label: Email
+        value: ""
+      - name: password
+        type: password
+        label: Password
+        value: ""
+
+    - name: Text and number
+      fields:
+      - name: textentry
+        type: text
+        label: Text
+        value: ""
+      - name: numberentry
+        type: number
+        label: Number
+        value: ""
+    - name: Boxes
+      fields:
+      - name: Combobox
+        type: select
+        options: "Flowerpot |default;Whale|1;42|2"
+        value: "default"
+      - name: Checkitybox
+        type: checkbox
+        label: "Check this out!"
+        value: "false"
