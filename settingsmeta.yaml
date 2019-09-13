@@ -21,7 +21,7 @@ skillMetadata:
       - name: numberentry
         type: number
         label: Number
-        value: ""
+        value: "0"
     - name: Boxes
       fields:
       - name: Combobox
