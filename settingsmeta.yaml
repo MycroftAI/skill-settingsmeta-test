@@ -1,6 +1,9 @@
-name: Settingsmeta-test
 skillMetadata:
   sections:
+    - name: Introductory text
+      fields:
+        - type: label
+          label: This Skill settings block was created to showcase the range of settings available, as well as test systems that handle or display settings.
     - name: Login
       fields:
       - name: email
@@ -20,15 +23,38 @@ skillMetadata:
         value: ""
       - name: numberentry
         type: number
-        label: Number
+        label: Small number
         value: "0"
+      - name: my_long_number
+        type: number
+        label: A large default number
+        value: 991513213567
+    - name: Single text field
+      fields:
+        - name: single_text_field
+          type: text
+          label: This has a placeholder value
+          value: ""
+          placeholder: prompt in the input box
     - name: Boxes
       fields:
-      - name: Combobox
-        type: select
-        options: "Flowerpot |default;Whale|1;42|2"
-        value: "default"
-      - name: Checkitybox
+      - name: checkity_box
         type: checkbox
-        label: "Check this out!"
+        label: Check this out!
         value: "false"
+      - name: my_bool_true
+        type: checkbox
+        label: This is defaulted to true.
+        value: "true"
+    - name: Select Example
+      fields:
+      - name: my_selected_option
+        type: select
+        label: Select an option
+        options: Option 1|option_one;Option 2|option_two;Option 3|option_three
+        value: option_one
+      - name: many_options
+        type: select
+        label: Select from many option
+        options: Option 1|option_one;Option 2|option_two;Option 3|option_three;Option 4|option_four;Option 5|option_five;Option 6|option_six;Option 7|option_seven;Option 8|option_eight;Option 9|option_nine;Option 10|option_ten;Option 11|option_eleven;Option 12|option_twelve
+        value: option_ten
