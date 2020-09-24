@@ -6,10 +6,11 @@ Skill settings example useful for testing.
 
 ## Examples
 * "Show my skill settings"
-* "Show the skill settings"
+* "What is in my single text field"
 
 ## Credits
-krisgesling
+- forslund
+- krisgesling
 
 ## Category
 **Configuration**
